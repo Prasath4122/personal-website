@@ -1,0 +1,80 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .curssive {
+    font-family: "Playwrite US Modern", cursive;
+  }
+
+  .curssive-1 {
+    font-family: "Playwrite NG Modern", cursive;
+  }
+
+  .learner {
+    text-decoration: underline;
+  }
+  
+  .jp {
+    filter: drop-shadow(2px 2px 10px #00bfff);
+  }
+
+  .rounded-circle{
+    border:1px solid;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    }
+    
+    .para {
+      display: grid;
+      grid-template-columns: 100%;
+      text-align: justify; 
+    }
+
+    .lis {
+      display: grid;
+      grid-template-columns: 100%;
+      text-align: justify;
+    }
+
+    .dropdown-item:hover {
+        scale: 1.2;
+        color: black;
+    }
+
+    footer {
+        background: #061D25;
+        padding: 10px 0;
+        text-align: center;
+      }
+      footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+      }
+      footer a:first-child {
+        border-left: 1px solid #70726F;
+      }
+      footer a:hover {
+        color: white;
+      }
+
+      .item {
+        color: black;
+      }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
